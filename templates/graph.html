@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="chart-container" style="position: relative; height:40vh; width:80vw">
+    <canvas id="categoryChart"></canvas>
+</div>
+<script type="text/javascript">
+    var chartData = {{ categories|tojson }};
+</script>
+{% endblock %}
+
+
+{% block extra_js %}
+<script src="{{ url_for('static', filename='js/Chart.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/graph.js') }}"></script>
+{% endblock %}
