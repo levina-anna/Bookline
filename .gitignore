@@ -1,5 +1,24 @@
-# Object file
-*.o
+# Папки
+Lib/
+Scripts/
+share/
 
-# Ada Library Information
-*.ali
+# Файлы
+pyvenv.cfg
+.idea/
+*.iml
+*.pyc
+*.pyo
+__pycache__/
+.env
+
+# Виртуальное окружение
+venv/
+
+# Статические и медиа файлы
+/static/
+/media/
+
+# Базы данных
+*.sqlite3
+*.db
