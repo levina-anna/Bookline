@@ -2,10 +2,10 @@
 
 Bookline is a Flask application that uses JavaScript and Chart.js to display interactive graphs showing book distribution across categories
 
-![Screenshot](https://github.com/levina-anna/levina-anna.github.io/raw/main/images/Booklin.png)
+![Screenshot](https://github.com/levina-anna/levina-anna.github.io/raw/main/images/Bookline.png)
 
 ## Features
-- A bar chart displaying the number of books per category using Chart.js.
+- A bar chart displaying the number of books per category using Chart.js
 
 
 ## Installation and Launch
