@@ -1,0 +1,14 @@
+body {
+    background-color: #101010;
+}
+
+.chart-container {
+    width: 60vw;
+    height: 40vh;
+    margin: auto;
+}
+
+#categoryChart {
+    width: 100%;
+    height: 100%;
+}
