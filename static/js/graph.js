@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         data: {
             labels: chartLabels,
             datasets: [{
-                label: 'Количество книг по категориям',
+                label: 'Number of books by category',
                 data: chartValues,
                 backgroundColor: 'rgba(144, 238, 144, 0.5)',
                 borderColor: 'rgba(0, 128, 0, 1)',
