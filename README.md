@@ -5,10 +5,12 @@ Bookline is a Flask application that uses JavaScript and Chart.js to display int
 ![Screenshot](https://github.com/levina-anna/levina-anna.github.io/raw/main/images/Bookline.png)
 
 ## Features
+
 - A bar chart displaying the number of books per category using Chart.js
 
 
 ## Installation and Launch
+
 ```bash
 git clone <repository-url>
 cd <project-directory-name>
@@ -19,6 +21,7 @@ python app.py
 ```
 
 ## Technologies Used
+
 - Python 3.11.1
 - Flask 3.0.3
 - Jinja2 3.1.3
